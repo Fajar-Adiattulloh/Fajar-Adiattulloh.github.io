@@ -16,16 +16,11 @@
     width: 100%;
 }
 .header_area .main-menu .navbar .navbar-brand{
-    padding: 1rem 2rem;
+    padding: 1rem 1rem;
 }
 
 .header_area .main-menu .navbar{
-    padding: 0 2rem 1rem;
-}
-
-.navbar-brand {
-    box-shadow: 1px 2px 1px #9c3e15;
-    border-radius: 30px ;
+    padding: 0 1rem  0 1rem;
 }
 
 .header_area, .main-menu, .nav-item .nav-link{
@@ -72,8 +67,8 @@
 
 .banner-image {
     border-radius: 18px;
-    box-shadow: 1px 1px 15px white;
-    margin-left: 15px;
+    box-shadow: 1px 1px 10px white;
+    margin-left: 3px;
     margin-top: 50px;
 }
 
@@ -214,7 +209,7 @@
     text-shadow: 2px 2px 5px #9c3e15;
     color: #dbd29d;
     margin-bottom: 40px;
-    margin-top: 70px;
+    margin-top: 50px;
 }
 
 .shdw1::after {
@@ -222,7 +217,7 @@
     display: block;
     border-bottom: 3px solid #9c3e15;
     box-shadow: 1px 1px 5px white;
-    width: 280px;
+    width: 290px;
     margin: auto;
     margin-top: 8px;
 }
@@ -267,6 +262,7 @@
     color: #9c3e15;
     margin-bottom: 30px;
     margin-top: 20px;
+    border-radius: 20px;
 }
 .shw-dtl:hover {
     color: #1a1a1a;
@@ -284,46 +280,6 @@
     transform: scale(1.02);
     box-shadow: 0px 0px 10px rgba(128, 128, 128, 0.685);
 }
-
-
-
-/*Star menu*/
-
-/*.project-area{
-    padding: 4rem 0;
-}
-
-.project-area .button-group button{
-    background: transparent;
-    border: none;
-    font: normal 500 16px/130px;
-    text-transform: uppercase;
-    text-shadow: 1px 1px 1px #9c3e15;
-    color: #dca648;
-}
-
-.project-area .button-group button + button{
-    padding-left: 1rem ;
-}
-
-.project-area .grid .our-project > .title h4{
-    font: normal 700 25px/12px;
-}
-
-button:focus,
-button:active
-button:hover
-.btn:active,
-.btn.active{
-    outline: 0px !important;
-    box-shadow: none !important;
-}
-
-.project-area .grid .our-project .img a:hover img{
-    filter:brightness(1.1)drop-shadow(1px 8px 30px #b1b1b1)
-}
-/*End menu*/
-
 
 /* Accordion */
 .shdw3 {
@@ -383,8 +339,8 @@ button:hover
     font-size: 18px;
     margin: 0;
     font-weight: 600;
-    color: #9c3e15;
-    text-shadow: 1px 1px 3px #dbd29d;
+    color: whitesmoke;
+    text-shadow: 1px 2px 4px #9c3e15;
     transition: all .3s ease-in;
 }
 
@@ -403,7 +359,9 @@ button:hover
 }
 .panel{
     padding: 0 15px;
+    background-color: #dbd29d;
     border-left: 6px solid #9c3e15;
+    box-shadow: -2px 3px 10px #1a1a1a;
     margin-left: 15px;
     font-size: 16px;
     text-align:justify;
@@ -517,7 +475,7 @@ button:hover
     background-color: #dca648;
 }
 .social {
-    text-shadow: 1px 1px 1px #dca648;
+    text-shadow: 1px 1px 2px #dca648;
     font-size: 30px;
 }
 
@@ -529,8 +487,8 @@ button:hover
 .fjr{
     color: #9c3e15;
     font-family:  sans-serif;
-    text-shadow: 1px 1px 3px black;
-    font-size: 14px;
+    text-shadow: 1px 1px 2px #dca648;
+    font-size: 16px;
     font-weight: 900;
     
 }
