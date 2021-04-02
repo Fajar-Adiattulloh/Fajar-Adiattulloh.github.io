@@ -190,10 +190,9 @@
     margin: -3px;
 }
 
-#home .isi .container .atas {
-    background-color: #dbd29d;
-    margin-top: -70px;
-    padding-bottom: 35px;
+.atas {
+    margin-bottom: 30px;
+    
 }
 
 
@@ -506,14 +505,4 @@
 /* end footer */
 html{
     scroll-behavior: smooth;
-}
-
-
-/*responsive mobile*/
-/*@media only screen and (max-width:340px){
-    .header_area .main-menu .navbar,
-    .header_area .main-menu .navbar .navbar-brand,{
-        padding: 2%;
-        margin: 0%;
-    }
 }
